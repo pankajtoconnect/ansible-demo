@@ -1,0 +1,6 @@
+---
+- name: Ping Module
+  hosts: all
+  tasks:
+     - name: Check COnnectivity
+       ping:
